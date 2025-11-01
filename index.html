@@ -3,37 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Plataforma digital para ONGs">
-    <meta name="keywords" content="ONG, voluntariado, doacoes, projetos sociais">
+    <meta name="description" content="Plataforma digital para ONGs conectar voluntarios, doadores e projetos sociais. Transforme vidas atraves da solidariedade.">
+    <meta name="keywords" content="ONG, voluntariado, doacoes, projetos sociais, impacto social, transformacao social">
+    <meta name="author" content="Pamela Strob Mancegozo Lima">
+    <meta name="robots" content="index, follow">
     
-    <title>Inicio - Plataforma ONGs</title>
+    <title>Inicio - Plataforma ONGs | Transformando Vidas</title>
     
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Skip to main content para acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para conteudo principal</a>
     <!-- Cabecalho e Navegacao Principal -->
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation" aria-label="Navegacao principal">
             <div class="logo">ONG Platform</div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="ong_platform_voluntariado.html">Voluntariado</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="transparencia.html">Transparencia</a></li>
+            <ul role="menubar">
+                <li role="none"><a href="index.html" role="menuitem" aria-current="page">Inicio</a></li>
+                <li role="none"><a href="projetos.html" role="menuitem">Projetos</a></li>
+                <li role="none"><a href="cadastro.html" role="menuitem">Cadastro</a></li>
             </ul>
         </nav>
     </header>
 
+    <main id="main-content" role="main">
     <!-- Secao Hero Principal -->
     <section class="hero">
         <div class="hero-content">
             <h1>Transformando Vidas Atraves da Solidariedade</h1>
             <p>Conectamos pessoas que querem fazer a diferenca com projetos sociais que transformam comunidades</p>
             <div class="cta-buttons">
-                <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntario</a>
+                <a href="projetos.html" class="btn btn-primary">Seja Voluntario</a>
                 <a href="cadastro.html" class="btn btn-secondary">Cadastre-se</a>
             </div>
         </div>
@@ -79,7 +80,7 @@
         <div class="projects-grid">
             <article class="project-card">
                 <div class="project-image">
-                    <img src="images/educacao.jpg" alt="Projeto de educacao">
+                    <img src="images/educacao.jpg" alt="Criancas estudando em sala de aula" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Educacao para Todos</h3>
@@ -93,7 +94,7 @@
             
             <article class="project-card">
                 <div class="project-image">
-                    <img src="images/alimentacao.jpg" alt="Projeto de combate a fome">
+                    <img src="images/alimentacao.jpg" alt="Distribuicao de alimentos para familias" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Combate a Fome</h3>
@@ -107,7 +108,7 @@
             
             <article class="project-card">
                 <div class="project-image">
-                    <img src="images/saude.jpg" alt="Projeto de saude comunitaria">
+                    <img src="images/saude.jpg" alt="Atendimento medico em comunidade" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Saude Comunitaria</h3>
@@ -133,8 +134,10 @@
         </div>
     </section>
 
+    </main>
+
     <!-- Rodape -->
-    <footer>
+    <footer role="contentinfo">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Sobre Nos</h3>
@@ -145,7 +148,6 @@
                 <h3>Links Rapidos</h3>
                 <ul>
                     <li><a href="projetos.html">Nossos Projetos</a></li>
-                    <li><a href="ong_platform_voluntariado.html">Seja Voluntario</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>
             </div>
@@ -162,6 +164,7 @@
         
         <div class="footer-bottom">
             <p>2025 ONG Platform. Todos os direitos reservados. CNPJ: 12.345.678/0001-90</p>
+            <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">Desenvolvido por Pamela Strob Mancegozo Lima</p>
         </div>
     </footer>
 </body>
