@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça nossos projetos sociais e como você pode ajudar">
-    <meta name="keywords" content="projetos sociais, voluntariado, doações, impacto social">
-    <meta name="author" content="Plataforma ONGs">
+    <meta name="description" content="Conheca nossos projetos sociais de educacao, alimentacao, saude e meio ambiente. Saiba como voce pode ajudar como voluntario ou doador.">
+    <meta name="keywords" content="projetos sociais, voluntariado, doacoes, impacto social, educacao, alimentacao, saude, meio ambiente">
+    <meta name="author" content="Pamela Strob Mancegozo Lima">
+    <meta name="robots" content="index, follow">
     
-    <title>Projetos Sociais - Plataforma ONGs</title>
+    <title>Projetos Sociais - Plataforma ONGs | Como Voce Pode Ajudar</title>
     
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Skip to main content para acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para conteudo principal</a>
     <!-- Cabecalho e Navegacao Principal -->
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation" aria-label="Navegacao principal">
             <div class="logo">ONG Platform</div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="ong_platform_voluntariado.html">Voluntariado</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="transparencia.html">Transparencia</a></li>
+            <ul role="menubar">
+                <li role="none"><a href="index.html" role="menuitem">Inicio</a></li>
+                <li role="none"><a href="projetos.html" role="menuitem" aria-current="page">Projetos</a></li>
+                <li role="none"><a href="cadastro.html" role="menuitem">Cadastro</a></li>
             </ul>
         </nav>
     </header>
 
+    <main id="main-content" role="main">
     <!-- Secao Hero -->
     <section class="hero">
         <div class="hero-content">
@@ -47,7 +47,7 @@
             <article class="help-card">
                 <h3>Seja Voluntário</h3>
                 <p>Doe seu tempo e habilidades para causas que fazem a diferença. Participe de nossos projetos e transforme vidas.</p>
-                <a href="ong_platform_voluntariado.html" class="btn btn-primary">Quero Ser Voluntário</a>
+                <a href="cadastro.html" class="btn btn-primary">Quero Ser Voluntario</a>
             </article>
             
             <article class="help-card">
@@ -73,8 +73,8 @@
         
         <div class="projects-grid">
             <article class="project-card">
-                <div class="project-image" role="img" aria-label="Projeto de educação">
-                    <img src="images/educacao.jpg" alt="Crianças estudando" loading="lazy">
+                <div class="project-image">
+                    <img src="images/educacao.jpg" alt="Criancas estudando em sala de aula" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Educação para Todos</h3>
@@ -85,15 +85,15 @@
                         <span>Ativo desde 2020</span>
                     </div>
                     <div class="project-actions">
-                        <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntário</a>
+                        <a href="cadastro.html" class="btn btn-primary">Seja Voluntario</a>
                         <a href="cadastro.html" class="btn btn-secondary">Apoiar Projeto</a>
                     </div>
                 </div>
             </article>
             
             <article class="project-card">
-                <div class="project-image" role="img" aria-label="Projeto de alimentação">
-                    <img src="images/alimentacao.jpg" alt="Distribuição de alimentos" loading="lazy">
+                <div class="project-image">
+                    <img src="images/alimentacao.jpg" alt="Distribuicao de alimentos para familias" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Combate à Fome</h3>
@@ -104,15 +104,15 @@
                         <span>Ativo desde 2019</span>
                     </div>
                     <div class="project-actions">
-                        <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntário</a>
+                        <a href="cadastro.html" class="btn btn-primary">Seja Voluntario</a>
                         <a href="cadastro.html" class="btn btn-secondary">Apoiar Projeto</a>
                     </div>
                 </div>
             </article>
             
             <article class="project-card">
-                <div class="project-image" role="img" aria-label="Projeto de saúde">
-                    <img src="images/saude.jpg" alt="Atendimento médico" loading="lazy">
+                <div class="project-image">
+                    <img src="images/saude.jpg" alt="Atendimento medico em comunidade" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Saúde Comunitária</h3>
@@ -123,15 +123,15 @@
                         <span>Ativo desde 2021</span>
                     </div>
                     <div class="project-actions">
-                        <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntário</a>
+                        <a href="cadastro.html" class="btn btn-primary">Seja Voluntario</a>
                         <a href="cadastro.html" class="btn btn-secondary">Apoiar Projeto</a>
                     </div>
                 </div>
             </article>
             
             <article class="project-card">
-                <div class="project-image" role="img" aria-label="Projeto de meio ambiente">
-                    <img src="images/meio-ambiente.jpg" alt="Plantio de árvores" loading="lazy">
+                <div class="project-image">
+                    <img src="images/meio-ambiente.jpg" alt="Plantio de arvores e preservacao ambiental" loading="lazy" width="400" height="200">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Sustentabilidade Ambiental</h3>
@@ -142,7 +142,7 @@
                         <span>Ativo desde 2022</span>
                     </div>
                     <div class="project-actions">
-                        <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntário</a>
+                        <a href="cadastro.html" class="btn btn-primary">Seja Voluntario</a>
                         <a href="cadastro.html" class="btn btn-secondary">Apoiar Projeto</a>
                     </div>
                 </div>
@@ -159,22 +159,22 @@
         
         <div class="impact-cards">
             <article class="impact-card">
-                <div class="impact-number" aria-label="Quinze mil">15.000+</div>
+                <div class="impact-number">15.000+</div>
                 <p class="impact-label">Vidas Impactadas</p>
             </article>
             
             <article class="impact-card">
-                <div class="impact-number" aria-label="Duzentos e cinquenta">250+</div>
+                <div class="impact-number">250+</div>
                 <p class="impact-label">Voluntários Ativos</p>
             </article>
             
             <article class="impact-card">
-                <div class="impact-number" aria-label="Quarenta e cinco">45</div>
+                <div class="impact-number">45</div>
                 <p class="impact-label">Projetos Sociais</p>
             </article>
             
             <article class="impact-card">
-                <div class="impact-number" aria-label="Doze">12</div>
+                <div class="impact-number">12</div>
                 <p class="impact-label">Comunidades Atendidas</p>
             </article>
         </div>
@@ -186,7 +186,7 @@
             <h2>Faça Parte Desta Transformação</h2>
             <p>Sua contribuição, seja como voluntário ou doador, faz toda a diferença na vida de milhares de pessoas</p>
             <div class="cta-buttons">
-                <a href="ong_platform_voluntariado.html" class="btn btn-primary">Seja Voluntário</a>
+                <a href="cadastro.html" class="btn btn-primary">Seja Voluntario</a>
                 <a href="cadastro.html" class="btn btn-secondary">Cadastre-se</a>
             </div>
         </div>
@@ -204,7 +204,6 @@
                 <h3>Links Rápidos</h3>
                 <ul>
                     <li><a href="projetos.html">Nossos Projetos</a></li>
-                    <li><a href="ong_platform_voluntariado.html">Seja Voluntário</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>
             </div>
@@ -220,7 +219,8 @@
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2025 ONG Platform. Todos os direitos reservados. | CNPJ: 12.345.678/0001-90</p>
+            <p>2025 ONG Platform. Todos os direitos reservados. CNPJ: 12.345.678/0001-90</p>
+            <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">Desenvolvido por Pamela Strob Mancegozo Lima</p>
         </div>
     </footer>
 </body>
